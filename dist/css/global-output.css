@@ -909,7 +909,7 @@ html{
 }
 
 .main-background {
-  background-image: url('/static/img/background-image-main.jpg');
+  background-image: url('static/img/background-image-main.jpg');
   background-size: cover;
   background-attachment: scroll;
   background-position: left top;

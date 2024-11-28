@@ -6,7 +6,7 @@ html{
     scroll-behavior: smooth;
 }
 .main-background {
-    @apply bg-[url('/static/img/background-image-main.jpg')] bg-no-repeat bg-scroll bg-cover bg-left-top
+    @apply bg-[url('static/img/background-image-main.jpg')] bg-no-repeat bg-scroll bg-cover bg-left-top
 }
 
 .my-header {

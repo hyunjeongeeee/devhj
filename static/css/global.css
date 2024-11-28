@@ -6,7 +6,7 @@ html{
     scroll-behavior: smooth;
 }
 .main-background {
-    @apply bg-[url('/img/background-image-main.jpg')] bg-no-repeat bg-scroll bg-cover bg-left-top
+    @apply bg-[url('https://hyunjeongeeee.github.io/static/img/background-image-main.jpg')] bg-no-repeat bg-scroll bg-cover bg-left-top
 }
 
 .my-header {
@@ -124,14 +124,4 @@ html{
     transform: translateY(0); /* 원래 위치로 이동 */
     @apply shadow-2xl
 }
-
-
-
-
-
-
-
-
-
-
 

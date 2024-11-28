@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./dist/css/global-output.css"/>
-    <link rel="icon" type="image/png" href="/favicon/favicon-48x48.png" sizes="48x48" />
-    <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
-    <link rel="shortcut icon" href="/favicon/favicon.ico" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
-    <link rel="manifest" href="/favicon/site.webmanifest" />
+    <link rel="icon" type="image/png" href="static/favicon/favicon-48x48.png" sizes="48x48" />
+    <link rel="icon" type="image/svg+xml" href="static/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="static/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="static/favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="static/favicon/site.webmanifest" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -16,14 +16,14 @@
 </head>
 <body>
 
-<header id="header" class="header">
-    <div class="logo">
-        <h1><a href="#main">HYUNJEONG'S DEVLOG</a></h1>
+<header id="header" class="my-header">
+    <div class="float-left">
+        <h1 class="text-2xl font-black pl-7 pt-9"><a href="#main">HYUNJEONG'S DEVLOG</a></h1>
     </div>
 
     <!-- TopMenu Area -->
-    <nav class="top-nav">
-        <ul class="nav-list">
+    <nav class="my-top-nav text-xl font-bold text-dark-gray">
+        <ul class="flex justify-between w-[44rem] pt-2">
             <li><a href="#about-me">ABOUT ME</a></li>
             <li><a href="#projects">PROJECTS</a></li>
             <li><a href="#education">EDUCATION</a></li>
@@ -51,7 +51,7 @@
             <div class="w-14 h-1 bg-dark-gray"></div>
         </div>
         <div class="float-left w-[31vh] mr-14">
-            <img class="w-full" src="/img/profile.png" alt="프로필사진">
+            <img class="w-full" src="static/img/profile.png" alt="프로필사진">
         </div>
         <div class="flex flex-wrap text-2xl">
             <ul class="p-10 w-full border-b-2 border-solid border-light-gray">
@@ -153,7 +153,7 @@
                     <li>• 서버/데이터베이스 배포</li>
                 </ul>
                 <div class="w-64 m-10">
-                    <img src="/img/grrreung-shop.png" alt="그르릉 쇼핑몰 프로젝트 메인 이미지">
+                    <img src="static/img/grrreung-shop.png" alt="그르릉 쇼핑몰 프로젝트 메인 이미지">
                 </div>
             </div>
         </div>
@@ -161,6 +161,22 @@
     </div>
 </section>
 
+
+
+
+<!-- 학력 및 교육 -->
+<section id="education" class="w-screen float-left text-dark-gray py-24 bg-white">
+    <div class="w-3/5 h-full mx-auto py-20">
+        <div class="w-full mx-auto mb-16 pl-6" >
+            <h2 class="text-4xl font-black  mb-4">Education & License</h2>
+            <div class="w-14 h-1 bg-dark-gray"></div>
+        </div>
+
+        <div class="flex">
+            <img src="static/img/education+licence.png" alt="교육 및 자격증">
+        </div>
+    </div>
+</section>
 
 <!-- Skills -->
 <section id="skills" class="w-screen float-left text-dark-gray py-24 bg-cream">
@@ -201,22 +217,6 @@
     </div>
 </section>
 
-<!-- 학력 및 교육 -->
-<section id="education" class="w-screen float-left text-dark-gray py-24 bg-white">
-    <div class="w-3/5 h-full mx-auto py-20">
-        <div class="w-full mx-auto mb-16 pl-6" >
-            <h2 class="text-4xl font-black  mb-4">Education & License</h2>
-            <div class="w-14 h-1 bg-dark-gray"></div>
-        </div>
-
-        <div class="flex">
-            <img src="/img/education+licence.png" alt="교육 및 자격증">
-        </div>
-    </div>
-</section>
-
-
-
 <!-- contact -->
 <section id="contact" class="w-screen float-left text-dark-gray py-24 bg-white">
     <div class="w-3/5 h-full mx-auto py-20">
@@ -242,23 +242,14 @@
     </div>
 </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<footer class="w-screen text-center text-sm float-left text-black">
+    <div class="p-7">
+        Copyright 2024. Hyunjeong All rights reserved.
+    </div>
+</footer>
 
 <script src="https://cdn.tailwindcss.com"></script>
-<script src="/js/global-script.js"></script>
+<script src="static/js/global-script.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </body>
 </html>

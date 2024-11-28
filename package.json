@@ -1,19 +1,14 @@
 {
-  "homepage": "https://hyunjeongeeee.github.io/devhj",
+  "homepage": "https://devhj.me",
   "name": "devlog",
-  "version": "0.0.1",
-  "description": "",
+  "version": "1.0.0",
   "private": true,
-  "keywords": [
-    ""
-  ],
-  "license": "",
   "author": "",
   "scripts": {
-    "start": "webpack serve --open --config webpack.config.dev.js",
+    "start": "webpack serve --open --config webpack.config.js",
     "build": "tailwindcss -i static/css/global.css  -o dist/css/global-output.css",
     "watch": "tailwindcss -i static/css/global.css --watch",
-    "predeploy": "npm run build && webpack --config webpack.config.js",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "devDependencies": {
@@ -36,6 +31,7 @@
     "webpack-merge": "^5.10.0"
   },
   "dependencies": {
+    "@tailwindcss/line-clamp": "^0.4.4",
     "postcss": "^8.4.49"
   }
 }

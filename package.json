@@ -13,7 +13,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack serve --open --config webpack.config.dev.js",
     "build": "tailwindcss -i static/css/global.css  -o dist/css/global-output.css",
-    "watch": "tailwindcss -i static/css/global.css --watch"
+    "watch": "tailwindcss -i static/css/global.css --watch",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "copy-webpack-plugin": "^11.0.0",

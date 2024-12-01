@@ -2,7 +2,7 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="./dist/css/global-output.css"/>
+    <link rel="stylesheet" href="dist/css/global-output.css"/>
     <link rel="icon" type="image/png" href="static/favicon/favicon-48x48.png" sizes="48x48" />
     <link rel="icon" type="image/svg+xml" href="static/favicon/favicon.svg" />
     <link rel="shortcut icon" href="static/favicon/favicon.ico" />
@@ -82,7 +82,6 @@
                     <i class="fa-solid fa-rocket"></i><span class="pl-2">트러블슈팅 바로가기</span></a></li>
             </ul>
             <ul class="mb-5">
-                <li class="p-2 mr-3 float-left bg-stone-300 text-sm rounded-xl">Java21</li>
                 <li class="p-2 mr-3 float-left bg-stone-300 text-sm rounded-xl">SpringBoot</li>
                 <li class="p-2 mr-3 float-left bg-stone-300 text-sm rounded-xl">JPA</li>
                 <li class="p-2 mr-3 float-left bg-stone-300 text-sm rounded-xl">MySQL</li>
@@ -112,7 +111,6 @@
                     <i class="fa-solid fa-location-dot"></i><span class="pl-2">배포사이트 바로가기</span></a></li>
             </ul>
             <ul class="mb-5">
-                <li class="p-2 mr-3 float-left bg-stone-300 text-sm rounded-xl">Java17</li>
                 <li class="p-2 mr-3 float-left bg-stone-300 text-sm rounded-xl">SpringBoot</li>
                 <li class="p-2 mr-3 float-left bg-stone-300 text-sm rounded-xl">JavaScript</li>
                 <li class="p-2 mr-3 float-left bg-stone-300 text-sm rounded-xl">MyBatis</li>
@@ -132,9 +130,20 @@
                     <li>• 메인화면 프론트 구조 설계</li>
                     <li>• 서버/데이터베이스 배포</li>
                 </ul>
-                <div class="w-64 m-10">
-                    <img src="static/img/grrreung-shop.png" alt="그르릉 쇼핑몰 프로젝트 메인 이미지">
+                <div class="w-64 m-10 imgC">
+                    <img src="static/img/grrreung-shop.png" alt="그르릉 쇼핑몰 프로젝트 메인 이미지"
+                    id="grrreun-image">
+                    <p class="text-dark-gray text-sm text-center">페이지 캡쳐</p>
                 </div>
+
+                <!-- 팝업 될 곳 -->
+                <div class="modal">
+                    <button>&times;</button>
+                    <div class="modalBox">
+                        <img src="" alt="">
+                    </div>
+                </div>
+
             </div>
         </div>
 

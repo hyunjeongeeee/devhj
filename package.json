@@ -7,9 +7,7 @@
   "scripts": {
     "start": "webpack serve --open --config webpack.config.js",
     "build": "tailwindcss -i static/css/global.css  -o dist/css/global-output.css",
-    "watch": "tailwindcss -i static/css/global.css --watch",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "watch": "tailwindcss -i static/css/global.css --watch"
   },
   "devDependencies": {
     "@babel/core": "^7.26.0",
